@@ -1,1 +1,5 @@
-{}
+{
+  "attachmentFolderPath": "imgs",
+  "promptDelete": true,
+  "alwaysUpdateLinks": false
+}

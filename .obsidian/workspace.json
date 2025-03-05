@@ -13,30 +13,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "readme.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "readme"
-            }
-          },
-          {
-            "id": "350498e29798e8ee",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "Database Internals/데이터베이스 개요.md",
                 "mode": "source",
-                "source": false
+                "source": false,
+                "backlinks": false
               },
               "icon": "lucide-file",
               "title": "데이터베이스 개요"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -162,13 +148,23 @@
               "icon": "lucide-list",
               "title": "Outline"
             }
+          },
+          {
+            "id": "7e7a1418533a1b7b",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -177,19 +173,25 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "notion-like-tables:Create loom": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "350498e29798e8ee",
+  "active": "d90fd6997dc8caea",
   "lastOpenFiles": [
-    "Network/CSMA-CD.md",
+    "readme.md",
     "Database Internals/데이터베이스 개요.md",
+    "Network/네트워크와 케이블.md",
+    "Untitled.loom",
+    "Untitled.canvas",
+    "private",
+    "imgs/Pasted image 20250305124225.png",
+    "Network/CSMA-CD.md",
     "imgs/Pasted image 20250304193703.png",
     "imgs",
     "Database Internals",
-    "readme.md",
     "Network",
-    "Untitled.canvas",
     "2025-03-04.md"
   ]
 }

@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Network/TCP IP와 허브.md",
+                "file": "Database Internals/데이터베이스 개요.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "TCP IP와 허브"
+              "title": "데이터베이스 개요"
             }
           }
         ]
@@ -179,9 +179,11 @@
   },
   "active": "d90fd6997dc8caea",
   "lastOpenFiles": [
-    "Network/네트워크와 케이블.md",
     "Network/TCP IP와 허브.md",
+    "Network/네트워크와 케이블.md",
+    "Database Internals/분산 시스템 개요.md",
     "Database Internals/데이터베이스 개요.md",
+    "private/2025-03-07.md",
     "readme.md",
     "Untitled.loom",
     "Untitled.canvas",

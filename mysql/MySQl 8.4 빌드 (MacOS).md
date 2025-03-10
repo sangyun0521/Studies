@@ -47,17 +47,36 @@ sudo make install (/usr/local/mysql에 설치)
 
 
 # Setup
-```
-mkdir mysql-files
-chown mysql:mysql mysql-files 
-chmod 750 mysql-files
 
-bin/mysqld --initialize --user=mysql
+### config 파일 생성
+/etc/my.cnf
+```
+    1 # vi /etc/my.cnf
+    2 [client]
+    3 port  = 3306
+    4 socket  = /tmp/mysql.sock
+    5
+    6 [mysqld]
+    7 user  = isang-yun
+    8 port  = 3306
+    9 basedir = /usr/local/mysql
+   10 datadir = /Users/isang-yun/workspace/build/data
+   11 log-error= /Users/isang-yun/workspace/build/log/mysql_error.log
+```
+절대 경로로 작성해야 오류 발생 안함
+
+### 데이터베이스 생성
+```
+mkdir data
+chown [OS사용자]:[OS사용자] data
+chmod 750 data
+
+mysqld --defaults-file=/etc/my.cnf --initialize-insecure (기본 데이터베이스 생성, root password 없이 생성)
 ```
 
 ### trouble shooting
 1. 기본 data 경로가 바뀐듯 mysql-files -> data
-2. 권한 관련 오류로 mysqld user옵션을 주려면 sudo로 실행 해주어야함
+2. 권한 관련 오류로 mysqld user옵션을 주려면 sudo로 실행 해주어야함 (디렉토리 권한과 일치 해야함)
 3. Innodb 설정 관련 오류
 ```
 2025-03-08T07:49:41.796720Z 1 [ERROR] [MY-012592] [InnoDB] Operating system error number 2 in a file operation.
@@ -65,10 +84,16 @@ bin/mysqld --initialize --user=mysql
 2025-03-08T07:49:41.796737Z 1 [ERROR] [MY-012594] [InnoDB] If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
 2025-03-08T07:49:41.796740Z 1 [ERROR] [MY-012646] [InnoDB] File ./ibdata1: 'open' returned OS error 71. Cannot continue operation
 ```
-innodb 생성시 파일을 미리 생성해두어야함
-근데 기본 설정 경로가 어딘지 모르겠어서그냥 /etc/mysql/my.conf 설정 파일을 만들어서 기본 경로 설정해주고 
-innodb data 경로에 ibdata 파일을 미리 만들어 둠
-안되네..
+- 파일 권한 확인
+- 절대 경로 확인
 
+### 시작
+```
+mysqld_safe --defaults-file=/etc/my.cnf
+```
 
-
+### 접속
+```
+mysql -u root
+show databases
+```

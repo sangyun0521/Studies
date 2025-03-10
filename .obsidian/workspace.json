@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Database Internals/장애 감지.md",
+                "file": "mysql/MySQl 8.4 빌드 (MacOS).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "장애 감지"
+              "title": "MySQl 8.4 빌드 (MacOS)"
             }
           }
         ],
@@ -195,8 +195,8 @@
   },
   "active": "9a3b2375dedb8a00",
   "lastOpenFiles": [
-    "Database Internals/분산 시스템 개요.md",
     "Database Internals/장애 감지.md",
+    "Database Internals/분산 시스템 개요.md",
     "etc/NeoVim Keymappings.md",
     "etc",
     "Database Internals/데이터베이스 개요.md",

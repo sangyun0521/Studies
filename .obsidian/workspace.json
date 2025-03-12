@@ -51,9 +51,24 @@
               "icon": "lucide-file",
               "title": "리더 선출"
             }
+          },
+          {
+            "id": "79a3d526f3dcca35",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Network/브리지와 스위치.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "브리지와 스위치"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -208,10 +223,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "f41a208213b486e8",
+  "active": "79a3d526f3dcca35",
   "lastOpenFiles": [
-    "mysql/MySQl 8.4 빌드 (MacOS).md",
+    "Network/TCP IP와 허브.md",
+    "Network/브리지와 스위치.md",
+    "Network/네트워크와 케이블.md",
+    "Database Internals/복제와 일관성.md",
     "Database Internals/리더 선출.md",
+    "mysql/MySQl 8.4 빌드 (MacOS).md",
     "Database Internals/장애 감지.md",
     "Database Internals/분산 시스템 개요.md",
     "etc/NeoVim Keymappings.md",
@@ -219,8 +238,6 @@
     "Database Internals/데이터베이스 개요.md",
     "mysql",
     "mysql",
-    "Network/TCP IP와 허브.md",
-    "Network/네트워크와 케이블.md",
     "private/2025-03-07.md",
     "readme.md",
     "Untitled.loom",

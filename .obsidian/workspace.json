@@ -58,13 +58,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Network/브리지와 스위치.md",
+                "file": "Network/루핑과 스패닝 트리 프로토콜.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "브리지와 스위치"
+              "title": "루핑과 스패닝 트리 프로토콜"
             }
           }
         ],
@@ -225,8 +225,15 @@
   },
   "active": "79a3d526f3dcca35",
   "lastOpenFiles": [
-    "Network/TCP IP와 허브.md",
+    "imgs/Pasted image 20250313223351.png",
+    "imgs/Pasted image 20250313223008.png",
+    "imgs/Pasted image 20250313221720.png",
+    "imgs/Pasted image 20250313221658.png",
+    "imgs/Pasted image 20250305124225.png",
+    "imgs/Pasted image 20250304193703.png",
+    "Network/루핑과 스패닝 트리 프로토콜.md",
     "Network/브리지와 스위치.md",
+    "Network/TCP IP와 허브.md",
     "Network/네트워크와 케이블.md",
     "Database Internals/복제와 일관성.md",
     "Database Internals/리더 선출.md",
@@ -243,9 +250,7 @@
     "Untitled.loom",
     "Untitled.canvas",
     "private",
-    "imgs/Pasted image 20250305124225.png",
     "Network/CSMA-CD.md",
-    "imgs/Pasted image 20250304193703.png",
     "imgs",
     "Database Internals",
     "Network",

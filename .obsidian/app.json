@@ -2,5 +2,6 @@
   "attachmentFolderPath": "imgs",
   "promptDelete": true,
   "alwaysUpdateLinks": false,
-  "vimMode": true
+  "vimMode": true,
+  "spellcheck": false
 }
